@@ -1,0 +1,44 @@
+<li class="store {if $smarty.foreach.productLoop.last}last_item{elseif $smarty.foreach.productLoop.first}first_item{/if}{if isset($customizedDatas.$productId.$productAttributeId) AND $quantityDisplayed == 0}alternate_item{/if} cart_item">
+	<a class="noeffect" href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category)|escape:'htmlall':'UTF-8'}">
+		<span class="image" style="background-image: url('{$link->getImageLink($product.link_rewrite, $product.id_image, $ips_img_medium)}')"></span>
+		<span class="name">
+		{if $product.active AND ($product.allow_oosp OR $product.stock_quantity > 0)}
+			<img src="{$img_dir}available.gif" alt="{l s='Available'}" />
+		{else}
+			<img src="{$img_dir}unavailable.gif" alt="{l s='Out of stock'}" />
+		{/if}
+			{$product.name|escape:'htmlall':'UTF-8'}
+		</span>
+		<span class="comment">{if $product.attributes}{$product.attributes_small|escape:'htmlall':'UTF-8'|truncate:50:'...'}{/if}</span>
+		<span class="starcomment">{convertPrice price=$product.price} {l s='-Tx'}</span>
+		<span class="arrow"></span>
+		{*if $product.reference}{$product.reference|escape:'htmlall':'UTF-8'}{else}--{/if*}
+	</a>
+</li>
+<li class="textbox">
+	<span class="product_quantity">
+		{if isset($customizedDatas.$productId.$productAttributeId) AND $quantityDisplayed == 0}{$product.customizationQuantityTotal}{/if}
+		{if !isset($customizedDatas.$productId.$productAttributeId) OR $quantityDisplayed > 0}
+			<a class="cart_quantity_delete" href="{$base_dir_ssl}cart.php?delete&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;token={$token_cart}" title="{l s='Delete'}">
+				<img src="{$img_dir}cancel.png" alt="{l s='Delete'}" />
+			</a>
+			<a class="cart_quantity_up" href="{$base_dir_ssl}cart.php?add&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;token={$token_cart}" title="{l s='Add'}">
+				<img src="{$img_dir}cart_add.png" alt="{l s='Add'}" />
+			</a>
+			<a class="cart_quantity_down" onclick="return confirm('{l s='Are you sure?'}');" href="{$base_dir_ssl}cart.php?add&amp;id_product={$product.id_product|intval}&amp;ipa={$product.id_product_attribute|intval}&amp;op=down&amp;token={$token_cart}" title="{l s='Subtract'}">
+				<img src="{$img_dir}cart_remove.png" alt="{l s='Subtract'}" />
+			</a>
+		{/if}
+	</span>
+	<span class="price">
+		{if $quantityDisplayed == 0 AND isset($customizedDatas.$productId.$productAttributeId)}{$customizedDatas.$productId.$productAttributeId|@count}{else}{$product.quantity-$quantityDisplayed}{/if}
+		{l s='x'}
+		{if $quantityDisplayed == 0 AND isset($customizedDatas.$productId.$productAttributeId)}
+			{if !$priceDisplay || $priceDisplay == 2}{convertPrice price=$product.total_customization_wt}{if $priceDisplay == 2} {l s='+Tx'}{/if}{/if}{if $priceDisplay == 2}<br />{/if}
+			{if $priceDisplay}{convertPrice price=$product.total_customization}{if $priceDisplay == 2} {l s='-Tx'}{/if}{/if}
+		{else}
+			{if !$priceDisplay || $priceDisplay == 2}{convertPrice price=$product.total_wt}{if $priceDisplay == 2} {l s='+Tx'}{/if}{/if}{if $priceDisplay == 2}<br />{/if}
+			{if $priceDisplay}{convertPrice price=$product.total}{if $priceDisplay == 2} {l s='-Tx'}{/if}{/if}
+		{/if}
+	</span>
+</li>

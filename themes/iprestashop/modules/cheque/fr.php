@@ -1,0 +1,36 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{cheque}iprestashop>payment_a5967aadef7d23b5027d46e107faf6d0'] = 'Payer par chèque';
+$_MODULE['<{cheque}iprestashop>payment_c42b053ef8c36f950ff37a0897d3a963'] = 'chèque';
+$_MODULE['<{cheque}iprestashop>payment_98228715376d0da3615802fe0e5678bb'] = 'Par chèque';
+$_MODULE['<{cheque}iprestashop>payment_execution_106a6c241b8797f52e1e77317b96a201'] = 'accueil';
+$_MODULE['<{cheque}iprestashop>payment_execution_1b9abf135ccb7ed2f2cd9c155137c351'] = 'Naviguer';
+$_MODULE['<{cheque}iprestashop>payment_execution_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Mon compte';
+$_MODULE['<{cheque}iprestashop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Votre panier est vide.';
+$_MODULE['<{cheque}iprestashop>payment_execution_83aa0e5744c86bf2d9d006319db14839'] = 'Paiement par chèque';
+$_MODULE['<{cheque}iprestashop>payment_execution_c42b053ef8c36f950ff37a0897d3a963'] = 'chèque';
+$_MODULE['<{cheque}iprestashop>payment_execution_6b3ef039e038a131d05bcd208a1b9799'] = 'Vous avez choisi le paiement par chèque.';
+$_MODULE['<{cheque}iprestashop>payment_execution_e2867a925cba382f1436d1834bb52a1c'] = 'Le montant total de votre commande est de';
+$_MODULE['<{cheque}iprestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = 'TTC';
+$_MODULE['<{cheque}iprestashop>payment_execution_2f1585fcd1150d6a7d6edbe3468a63f8'] = 'Nous acceptons plusieurs monnaies pour les chèques.';
+$_MODULE['<{cheque}iprestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Veuillez choisir un des suivantes :';
+$_MODULE['<{cheque}iprestashop>payment_execution_c4309902a6192747d56f3539941acc49'] = 'Nous acceptons la monnaie suivante pour les paiements par chèque :';
+$_MODULE['<{cheque}iprestashop>payment_execution_504be670f962fa7630863857a0085632'] = 'Le destinataire et l\'adresse d\'envoi du chèque vous seront connus sur la page suivante.';
+$_MODULE['<{cheque}iprestashop>payment_execution_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Suivant';
+$_MODULE['<{cheque}iprestashop>payment_execution_d0cab90d8d20d57e2f2b9be52f7dd25d'] = 'suivant';
+$_MODULE['<{cheque}iprestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Je confirme ma commande';
+$_MODULE['<{cheque}iprestashop>payment_execution_2327346e833efcd6b2e7b3f0a4df8ebb'] = 'précédent';
+$_MODULE['<{cheque}iprestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Autres moyens de paiement';
+$_MODULE['<{cheque}iprestashop>payment_return_2e2117b7c81aa9ea6931641ea2c6499f'] = 'Votre commande sur';
+$_MODULE['<{cheque}iprestashop>payment_return_75fbf512d744977d62599cc3f0ae2bb4'] = 'est finalisé.';
+$_MODULE['<{cheque}iprestashop>payment_return_e4ee6e0eac588fe2611cc6fd195828af'] = 'Veuillez nous envoyer un chèque :';
+$_MODULE['<{cheque}iprestashop>payment_return_a35abd2d31d9e1da82599bc67e166506'] = 'd\'un montant de';
+$_MODULE['<{cheque}iprestashop>payment_return_84cca8efe379645790938f55b701a1a4'] = 'à l\'ordre de';
+$_MODULE['<{cheque}iprestashop>payment_return_c5a6826dd3b059e32a3fa1ae029179de'] = 'envoyé à';
+$_MODULE['<{cheque}iprestashop>payment_return_13f4ac6dc75b5829499cb9cf8b733071'] = 'Un email contenant ces informations a été envoyé.';
+$_MODULE['<{cheque}iprestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'Votre commande sera envoyé aussitôt que le paiement sera reçu.';
+$_MODULE['<{cheque}iprestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'Pour toutes questions ou informations, merci de contacter notre';
+$_MODULE['<{cheque}iprestashop>payment_return_64430ad2835be8ad60c59e7d44e4b0b1'] = 'service client';
+$_MODULE['<{cheque}iprestashop>payment_return_8de637e24570c1edb0357826a2ad5aea'] = 'Nous avons noté un problème avec votre commande. SI vous pensez que ceci est une erreur, veuillez contacter';

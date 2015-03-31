@@ -1,0 +1,180 @@
+/*@group Extend iWebKit framework */
+.textbox a {
+	color: #505050;
+}
+.textbox img {
+	vertical-align: middle;
+}
+.textbox img.left {
+	float: left;
+	margin-right: 0.2em;
+}
+.graytitle a {
+	color:#4C4C4C;
+}
+.header a {
+	color: #496691;
+}
+/*@end Extend iWebKit framework */
+
+/*@group Useful class */
+.align_right { text-align: right; }
+.align_left { text-align: left; }
+.align_center { text-align: center; }
+.align_justify { text-align: justify; }
+/*@end Useful class */
+
+/*@group Image size */
+img.standard {
+	width: 32px;
+	height: 32px;
+}
+/*@end Images size */
+
+/*@group Message box */
+.error, .error .header, .error .menu {
+	color: #8E1813;
+}
+.error, .error .menu {
+	background-color: #EEBFB0;
+	border-color: #8E1813;
+}
+
+.success {
+	color: #2D4E45;
+	background-color: #B5D4AA;
+}
+
+.warning {
+	color: #963C28;
+	background-color: #F7EFC7;
+}
+/*@end Message box */
+
+
+/*@group specific to PrestaShop */
+.block_hidden_only_for_screen, .hidden {
+	display: none;
+}
+
+.price {
+	white-space: nowrap !important;
+}
+.our_price_display {
+	color: #0067A5;
+	font-weight: bold;
+}
+.reduction {
+	color: #AD7212;
+	text-decoration: underline;
+}
+.price-discount {
+	text-decoration: line-through;
+}
+
+.new {
+	font-size: 0.7em;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-right: 0.2em;
+	color: #F23200;
+}
+
+.rte{
+	font-size: 0.9em;
+}
+
+/*@group Module TAG */
+.tag_level1 {
+	font-size:1em;
+}
+.tag_level2 {
+	font-size:1.1em;
+}
+.tag_level3 {
+	font-size:1.2em;
+}
+/*@end Module TAG */
+
+/*@group Module Loyalty */
+#loyalty {
+	color: #A22214;
+}
+/*@end Module Loyalty */
+
+/*@group Module Wishlist */
+.priority_high { color:darkred; }
+.priority_medium { color:darkorange; }
+.priority_low { color:green; }
+/*@end Module Wishlist */
+
+#categoryImage {
+	border: 1px solid #375073;
+	margin: 0.8em 0;
+}
+
+
+/*@group product detail page */
+
+li.views_block {
+	padding-left: 0 !important;
+}
+div#views_block {
+	width: 300px;
+}
+#thumbs_list {
+	overflow:hidden;
+	float:left;
+	width: 255px;
+}
+#thumbs_list li {
+	list-style: none;
+	float: left;
+}
+span.view_scroll_spacer{
+	float: left;
+	width: 17px;
+	height: 80px;
+}
+#view_scroll_left, #view_scroll_right{
+	background: url('../img/arrow_left.png') no-repeat center;
+	text-indent:-3000px;
+	width:16px;
+	height:18px;
+	float:left;
+	margin-top:30px;
+	padding: 0 2px;
+}
+#view_scroll_right{
+	background-image: url('../img/arrow_right.png');
+}
+
+ul#color_picker {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#color_picker li {
+	float: left;
+	padding: 0 0 0 0.7em;
+}
+.color_pick {
+	display: block;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #000;
+	-webkit-border-radius: 8px;
+}
+
+.add_to_cart input, .add_to_cart a {
+	color: #F3F3F3;
+	background: #298C08 url('../img/add_to_cart.png') no-repeat 8px 4px;
+}
+.add_to_cart input, .add_to_cart a .name {
+	color: #F3F3F3;
+	padding-left: 40px;
+}
+
+/*@end product detail page */
+
+/*@end specific to PrestaShop */

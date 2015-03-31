@@ -1,0 +1,24 @@
+CHANGELOG
+iPrestaShop theme
+by Joel Gaujard <http://iprestashop.net>
+
+
+v.1.2.0 | r99 | 2010-03-06
+------------------------------------
+Create a theme optimized for iPhone/iPod (mobile) with iWebKit v.5.03
+
+
+v.1.2.1 | r185 | 2010-04-19
+------------------------------------
+* Migration to iWebKit 5.04
+* Correct link to subcategory on category page
+* Uses own image size name
+* Browse link depends on module directly
+* Enhance product list display
+* Update french translation
+* Modules Send to a friend, Loyalty, Mail alerts, Referral, Google Checkout, Block Link, Block RSS, Wishlist
+* Module YouTube Linker by PrestaWorks - http://www.prestaworks.com/various/36-youtube-link.html
+* Module Send to my friend - http://www.prestashop.com/forums/viewthread/42609/
+* Module Block Top Menu by Julien Breux - http://www.julien-breux.com/2009/08/25/menu-horizontal-v-1-0/
+* A lot of corrections and enhancements
+

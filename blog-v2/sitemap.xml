@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+     <url>
+	  <loc>http://www.mariannedenis.com/blog/</loc>
+	  <lastmod>2011-01-21</lastmod>
+	  <changefreq>always</changefreq>
+	  <priority>1</priority>
+     </url>
+
+     <url>
+	  <loc>http://www.mariannedenis.com/blog/newsletter-2/</loc>
+	  <lastmod>2011-01-21</lastmod>
+	  <changefreq>always</changefreq>
+	  <priority>0,6</priority>
+     </url>
+
+     <url>
+	  <loc>http://www.mariannedenis.com/blog/actualites/just-married-les-mariees-sur-mesure/</loc>
+	  <lastmod>2011-01-21</lastmod>
+	  <changefreq>always</changefreq>
+	  <priority>0,6</priority>
+     </url>
+
+     <url>
+	  <loc>http://www.mariannedenis.com/blog/actualites/organisez-votre-propre-vente-privee-avec-marianne-denis/</loc>
+	  <lastmod>2011-01-21</lastmod>
+	  <changefreq>always</changefreq>
+	  <priority>0,6</priority>
+     </url>
+
+     <url>
+	  <loc>http://www.mariannedenis.com/blog/newsletter/</loc>
+	  <lastmod>2010-11-09</lastmod>
+	  <changefreq>always</changefreq>
+	  <priority>0,6</priority>
+     </url>
+
+     <url>
+	  <loc>http://www.mariannedenis.com/blog/actualites/shooting-pour-md-com/</loc>
+	  <lastmod>2011-01-15</lastmod>
+	  <changefreq>always</changefreq>
+	  <priority>0,6</priority>
+     </url>
+
+     <url>
+	  <loc>http://www.mariannedenis.com/blog/evenements/lancement-du-site-au-china/</loc>
+	  <lastmod>2011-01-15</lastmod>
+	  <changefreq>always</changefreq>
+	  <priority>0,6</priority>
+     </url>
+
+     <url>
+	  <loc>http://www.mariannedenis.com/blog/actualites/seance-photo-en-plein-air-pour-une-vente-privee/</loc>
+	  <lastmod>2011-01-21</lastmod>
+	  <changefreq>always</changefreq>
+	  <priority>0,6</priority>
+     </url>
+
+     <url>
+	  <loc>http://www.mariannedenis.com/blog/a-propos/</loc>
+	  <lastmod>2010-10-26</lastmod>
+	  <changefreq>always</changefreq>
+	  <priority>0,6</priority>
+     </url>
+</urlset>
